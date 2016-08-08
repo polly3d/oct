@@ -1,0 +1,21 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    title:
+        label: 标题
+        type: text
+        span: auto
+    url:
+        label: URL
+        type: dropdown
+        span: auto
+    order:
+        label: 排序
+        type: currency
+        default: 100
+    created_at:
+        label: 创建日期
+        
+

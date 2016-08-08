@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Menu Controller
+
+# Model Form Field configuration
+form: $/wang/admin/models/frontmenu/fields.yaml
+
+# Model Class name
+modelClass: Wang\Admin\Models\FrontMenu
+
+# Default redirect location
+defaultRedirect: wang/admin/menucontroller
+
+# Create page
+create:
+    title: Create Menu Controller
+    redirect: wang/admin/menucontroller/update/:id
+    redirectClose: wang/admin/menucontroller
+
+# Update page
+update:
+    title: Edit Menu Controller
+    redirect: wang/admin/menucontroller
+    redirectClose: wang/admin/menucontroller
+
+# Preview page
+preview:
+    title: Preview Menu Controller

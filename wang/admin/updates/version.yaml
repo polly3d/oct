@@ -1,0 +1,7 @@
+1.0.1: First version of Admin
+1.0.2: 
+      - Create tasks table
+      - create_tasks_table.php
+1.0.3:
+      - Create FrontMenu table
+      - create_front_menus_table.php
